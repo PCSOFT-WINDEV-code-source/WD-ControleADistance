@@ -1,0 +1,120 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD ContrôleADistance
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD ContrôleADistance
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD ContrôleADistance
+    internal_properties : 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
+    configuration_id : 11809164388817098200
+    type : 1
+    generation_name : WD ContrôleADistance.exe
+    version :
+     major_version : 21
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\ControleADistance.ico
+    language : 1
+ elements :
+  identifier : 0x4acda38200227a3e
+  elements :
+   -
+     name : FEN_ControleADistance
+     identifier : 0x4e5518be00320e8f
+     internal_properties : CAAAAAgAAAAXc3+jAH01NoEaRsxWPQHw37gqircqAXqLtcRcGRWBb02j/aRh52jJ3lhCvka6RroCAg==
+     physical_name : .\FEN_ControleADistance.wdw
+     type : 2
+   -
+     name : FEN_FenêtreControleAutomatique
+     identifier : 0x4e57681e0c9387e6
+     internal_properties : CAAAAAgAAAC3k5+DIB0VFiF6Jix2bz0E16QiamNYENobtyAAd5cHIevVa8ZBx0gpfrginmaaZlqiog==
+     physical_name : .\FEN_FenetreControleAutomatique.wdw
+     type : 2
+   -
+     name : COL_ProcéduresGlobales
+     identifier : 0x4e57684a0c97360f
+     internal_properties : CAAAAAgAAADudMba6ZaeUR6jf5mzpWDHFmd9lT8jp7Wj+qIzZslL5S+Xpxr8DJPyN+HbJe3jnxH7ew==
+     physical_name : .\COL_ProceduresGlobales.wdg
+     type : 7
+   -
+     name : FEN_Principale
+     identifier : 0x3ffe95fb3399332d
+     internal_properties : CAAAAAgAAAAHA2+zcC2FprEKtlzGEaGIP3h6OqBhzdYnMd2CRvkdg0m36VixV9i5zkiyDpZKNqoSEg==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\description.rtf
+   -
+     physical_name : .\description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAAC2jYodUzCvEiymC5QrznXTK4RMEU2mrqxKv0ssv7H2EJd3m04KnCdx3hQAEFvzymM1/Lsp7q6U5wbopY4Pe4XOyLevWfEWexCJ0kIErCsUmswEI4/vIj6BH1F9K7pvyLImWowr//Lckel1lt1FpgKHb7MJvV719T2apQ4VJY7Ls/sESS0J
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      
+      // La personnalisation du contrôle à distance d'une application se fait via la fonction WLangage AppliContrôle.
+      // Cette fonction doit être la première instruction appelée dans le code d'initialisation du projet
+      //
+      // Il est possible de paramétrer le contrôle à distance : 
+      // - Avec exécution du code de fin de projet
+      //		AppliContrôle(frepexe()+["\"]+"WDUPDATE.NET", Vrai)
+      // - Sans exécution du code de fin de projet
+      //		AppliContrôle(frepexe()+["\"]+"WDUPDATE.NET", Faux)
+      // - Avec ouverture d'une fenêtre personnalisée
+      //		AppliContrôle(frepexe()+["\"]+"WDUPDATE.NET", "FEN_FenêtreControleAutomatique")
+      // - Avec appel à une procédure personnalisée
+      //		AppliContrôle(frepexe()+["\"]+"WDUPDATE.NET", ProcédureControleAutomatique)
+      //
+      // Il est également possible de désactiver le contrôle à distance
+      //		AppliContrôle("")
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD ContrôleADistance
+     identifier : 0x4acda38200307af9
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

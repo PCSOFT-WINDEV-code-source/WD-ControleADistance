@@ -1,0 +1,73 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e576846894f232b
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720896
+   -
+     code : |1-
+      
+     type : 720898
+  procedures :
+   -
+     name : ProcédureControleAutomatique
+     procedure_id : 2186330822042205395
+     type_code : 15
+     code : |1-
+      // Résumé : Procédure appelée pour gérer le contrôle automatique
+      // Syntaxe :
+      //ProcédureControleAutomatique (<nMode> est entier, <sMessage> est chaîne, <nTempsAffichage> est entier)
+      //
+      // Paramètres :
+      //	nMode (entier) : Mode de contrôle à distance (constantes acInterdit, acAvertissement, acArrêt)
+      //	sMessage (chaîne ANSI) : Message correspondant au mode en cours
+      //	nTempsAffichage (entier) : Temps d'affichage maximal d'une éventuelle fenêtre (en secondes)
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE ProcédureControleAutomatique(LOCAL nMode est un entier, LOCAL sMessage est une chaine, LOCAL nTempsAffichage est un entier)
+      
+      sTitre est une chaine
+      
+      
+      // Définit un titre pour la boite d'information qui sera affichée
+      SELON nMode
+      	CAS acInterdit : sTitre = "Contrôle à distance : accès interdit à l'application"
+      	CAS acAvertissement : sTitre = "Contrôle à distance : avertissement d'un arrêt imminent"
+      	CAS acArrêt : sTitre = "Contrôle à distance : arrêt de l'application"
+      FIN
+      titresuivant(sTitre)
+      
+      // Définit la temporisation de la boite d'information
+      DélaiAvantFermeture(nTempsAffichage*100)
+      
+      // Affiche le message
+      info(sMessage)
+      
+      // Si le mode est "Arrêt", il faut stopper l'application
+      si nMode = acarret alors FinProgramme()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fc795840d462243
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
